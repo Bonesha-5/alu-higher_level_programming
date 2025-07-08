@@ -7,7 +7,7 @@ if __name__ == "__main__":
     filename = "hidden_4.pyc"
 
     with open(filename, "rb") as f:
-        f.read(16)  # skip the header of the pyc file (magic number + timestamp + other metadata)
+        f.read(16)  
         code = marshal.load(f)  # load the code object from the file
 
     # The code object contains a list of names in code.co_names
