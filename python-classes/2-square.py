@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """Defines a Square class with validated size."""
+
+
 class Square:
     """Defines a Square class with validated size."""
     def __init__(self, size=0):
