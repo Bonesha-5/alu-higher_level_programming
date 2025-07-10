@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines a Square class with size and position."""
+"""Defines a square class with size and position."""
 
 
 class Square:
