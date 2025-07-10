@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """Defines a Square class with area computation."""
+
+
 class Square:
     """Defines a Square class with area computation."""
     def __init__(self, size=0):
