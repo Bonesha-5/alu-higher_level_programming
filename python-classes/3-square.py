@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Defines a Square class with area computation."""
 class Square:
     def __init__(self, size=0):
         if not isinstance(size, int):

@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Defines a Square class with property getter/setter."""
 class Square:
     def __init__(self, size=0):
         self.size = size
