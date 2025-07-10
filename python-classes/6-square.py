@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Defines a Square class with size and position."""
 class Square:
+    """Square class with size and position attributes, area calculation, and print."""
     def __init__(self, size=0, position=(0, 0)):
         self.size = size
         self.position = position

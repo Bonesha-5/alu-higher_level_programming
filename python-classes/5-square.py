@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Defines a Square class with printed representation."""
 class Square:
+    """Square class with size property, area calculation, and print method."""
     def __init__(self, size=0):
         self.size = size
     @property
