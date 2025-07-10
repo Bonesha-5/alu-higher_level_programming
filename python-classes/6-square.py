@@ -57,9 +57,9 @@ class Square:
             TypeError: if value is not a tuple of 2 positive integers.
         """
         if (not isinstance(value, tuple)
-            or len(value) != 2
+            len(value) != 2 or
 
-            or not isinstance(value[0], int)
+            not isinstance(value[0], int) or
 
             or not isinstance(value[1], int)
             or value[0] < 0
