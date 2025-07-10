@@ -4,7 +4,6 @@
 
 class Square:
     """Square class with size and position attributes, area calculation, and print."""
-
     def __init__(self, size=0, position=(0, 0)):
         """Initialize square with size and position.
 
