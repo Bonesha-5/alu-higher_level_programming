@@ -3,6 +3,7 @@
 the list of available attributes and methods of an object.
 """
 
+
 def lookup(obj):
     """
     Returns a list of available attributes and methods of an object.
@@ -11,6 +12,6 @@ def lookup(obj):
         obj: The object to inspect.
 
     Returns:
-        list: A list of strings representing the names of attributes and methods.
+        list: A list of stf attributes and methods.
     """
     return dir(obj)
